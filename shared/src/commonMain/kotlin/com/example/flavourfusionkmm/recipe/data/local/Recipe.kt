@@ -4,5 +4,6 @@ import androidx.room.Entity
 
 @Entity
 data class Recipe(
+    val id: String,
     val name: String
 )
